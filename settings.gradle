@@ -1,0 +1,2 @@
+rootProject.name = 'ScreenTranslator_Lite'
+include ':app'

@@ -1,0 +1,3 @@
+// Root build.gradle placeholder
+buildscript { repositories { mavenCentral() } }
+allprojects { repositories { mavenCentral() } }
