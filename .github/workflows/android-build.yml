@@ -26,8 +26,10 @@ jobs:
     - name: Build Release APK
       run: ./gradlew assembleRelease
 
+    # ⚠️ 已更新为 v4‼️
     - name: Upload APK artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: app-release-apk
         path: app/build/outputs/apk/release/app-release.apk
+
